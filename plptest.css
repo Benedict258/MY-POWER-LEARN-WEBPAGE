@@ -1,0 +1,118 @@
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    font-family: Arial, sans-serif; /* Ensure a consistent font */
+}
+.zoom-animation {
+    animation: zoom 3s infinite;
+    /* Other styles if needed */
+}
+
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+header h1 {
+    color: #ffffff; /* White headings */
+}
+
+header .highlight {
+    color: #00A6A6; /* Teal highlight */
+}
+
+nav a {
+    color: #1e88e5; /* Light blue links */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a.current {
+    color: #ffffff; /* Current link in white */
+}
+
+nav a:hover {
+    color: #03dac6; /* Slightly lighter on hover */
+}
+
+main h2, main h3, main h4 {
+    color: #03dac6; /* Teal section titles */
+}
+
+main h3 {
+    color: #bb86fc; /* Maroon list titles */
+}
+
+form {
+    background-color: #1f1f1f; /* Dark form background */
+    padding: 15px;
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text */
+}
+
+input[type="text"], input[type="email"], textarea {
+    background-color: #2c2c2c; /* Dark input backgrounds */
+    color: #ffffff; /* White text in inputs */
+    border: 1px solid #3c3c3c; /* Darker border for inputs */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+    color: #888888; /* Lighter gray placeholder text */
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #e0e0e0; /* Light text */
+}
+
+button, input[type="submit"] {
+    background-color: #03dac6; /* Teal button background */
+    color: #121212; /* Dark button text */
+    border: none; /* No border */
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #018786; /* Darker teal on hover */
+}
+
+a {
+    color: #1e88e5; /* Light blue links */
+}
+
+a:hover {
+    color: #bb86fc; /* Slightly lighter on hover */
+}
+
+.section-title {
+    color: #03dac6; /* Teal section titles */
+}
+
+.list-title {
+    color: #bb86fc; /* Maroon list titles */
+}
+
+div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div a {
+    color: #1e88e5; /* Light blue links */
+}
+
+div a:hover {
+    color: #bb86fc; /* Slightly lighter on hover */
+}
